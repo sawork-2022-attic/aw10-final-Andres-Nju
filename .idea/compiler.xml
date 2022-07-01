@@ -6,8 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="test" />
       </profile>
-      <profile name="Annotation profile for micropos" enabled="true">
+      <profile name="Annotation profile for pos-orders" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -36,6 +37,7 @@
       <module name="pos-gateway" target="11" />
       <module name="pos-orders" target="11" />
       <module name="pos-products" target="11" />
+      <module name="test" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -48,6 +50,7 @@
       <module name="pos-gateway" options="-parameters -Amapstruct.suppressGeneratorTimestamp=true -Amapstruct.suppressGeneratorVersionInfoComment=true -Amapstruct.defaultComponentModel=spring" />
       <module name="pos-orders" options="-parameters -Amapstruct.suppressGeneratorTimestamp=true -Amapstruct.suppressGeneratorVersionInfoComment=true -Amapstruct.defaultComponentModel=spring" />
       <module name="pos-products" options="-parameters -Amapstruct.suppressGeneratorTimestamp=true -Amapstruct.suppressGeneratorVersionInfoComment=true -Amapstruct.defaultComponentModel=spring" />
+      <module name="test" options="" />
     </option>
   </component>
 </project>
